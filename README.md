@@ -5,9 +5,9 @@ Deep Learning으로 학습된 Object Detection Model 에 대해 정리한 Archiv
 
 Deep Learning 기반의 모델링으로 Object Detection 문제를 효과적으로 풀기위해 시도되었던 다양한 내용들을 정리한 자료입니다.
 
-![Summary SlideShare #1](/object-detection-1.png?raw=true "Summary")
-
 **[1편 SlideShare](https://www.slideshare.net/IldooKim/deep-object-detectors-1-20166)**
+
+![Summary SlideShare #1](/object-detection-1.png?raw=true "Summary")
 
 
 ### R-CNN 이전의 모델
