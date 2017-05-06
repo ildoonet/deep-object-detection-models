@@ -10,6 +10,8 @@ Deep Learning 기반의 모델링으로 Object Detection 문제를 효과적으�
 ![Summary SlideShare #1](/object-detection-1.png?raw=true "Summary")
 
 
+
+
 ### R-CNN 이전의 모델
 
 ![Summary : Before R-CNN](/object-detection-2.png?raw=true "Before R-CNN")
@@ -18,6 +20,8 @@ Deep Learning 기반의 모델링으로 Object Detection 문제를 효과적으�
 * [Selective Search for Object Recognition](http://cs.brown.edu/~pff/papers/lsvm-pami.pdf)
 * [OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks](https://arxiv.org/abs/1312.6229)
 * [Deep Neural Networks for Object Detection](https://pdfs.semanticscholar.org/713f/73ce5c3013d9fb796c21b981dc6629af0bd5.pdf)
+
+
 
 ### R-CNN 류의 모델 : R-CNN의 모듈들을 개선했거나 유사 구조의 Detection Pipeline을 사용 
 
@@ -34,6 +38,8 @@ Deep Learning 기반의 모델링으로 Object Detection 문제를 효과적으�
   * [G-CNN: an Iterative Grid Based Object Detector](http://arxiv.org/abs/1512.07729)
   * [Faster R-CNN +++](https://arxiv.org/abs/1512.03385)
 * [R-FCN: Object Detection via Region-based Fully Convolutional Networks](https://arxiv.org/abs/1605.06409) : Faster R-CNN을 Fully Convolutional 하게 변경.
+
+
 
 ### Single Shot Detector : 1번의 Neural Network Forwarding으로 여러 클래스의 여러 물체를 동시 검출하는 Pipeline을 사용
 
