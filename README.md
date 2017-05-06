@@ -12,12 +12,16 @@ Deep Learning 기반의 모델링으로 Object Detection 문제를 효과적으�
 
 ### R-CNN 이전의 모델
 
+![Summary : Before R-CNN](/object-detection-2.png?raw=true "Before R-CNN")
+
 * DPM : [Object Detection with Discriminatively TrainedPart Based Models](http://cs.brown.edu/~pff/papers/lsvm-pami.pdf)
 * [Selective Search for Object Recognition](http://cs.brown.edu/~pff/papers/lsvm-pami.pdf)
 * [OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks](https://arxiv.org/abs/1312.6229)
 * [Deep Neural Networks for Object Detection](https://pdfs.semanticscholar.org/713f/73ce5c3013d9fb796c21b981dc6629af0bd5.pdf)
 
 ### R-CNN 류의 모델 : R-CNN의 모듈들을 개선했거나 유사 구조의 Detection Pipeline을 사용 
+
+![Summary : R-CNN](/object-detection-3.png?raw=true "R-CNN")
 
 * R-CNN : [Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/abs/1311.2524)
   * [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/abs/1406.4729) : 이미지를 
@@ -32,6 +36,9 @@ Deep Learning 기반의 모델링으로 Object Detection 문제를 효과적으�
 * [R-FCN: Object Detection via Region-based Fully Convolutional Networks](https://arxiv.org/abs/1605.06409) : Faster R-CNN을 Fully Convolutional 하게 변경.
 
 ### Single Shot Detector : 1번의 Neural Network Forwarding으로 여러 클래스의 여러 물체를 동시 검출하는 Pipeline을 사용
+
+![Summary : Single Shot Detector](/object-detection-4.png?raw=true "Single Shot detector 1")
+![Summary : Single Shot Detector](/object-detection-5.png?raw=true "Single Shot detector 2")
 
 * Multibox, Edgebox, MSC-Multibox 등 DNN 기반의 방식으로 Proposal 개선하기도 함.
   * [Scalable Object Detection using Deep Neural Networks](https://arxiv.org/abs/1312.2249)
